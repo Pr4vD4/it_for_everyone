@@ -1,0 +1,82 @@
+body {
+    background-color: #BFBFBF;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: #2b2f32 1px 0 20px;
+}
+
+.main {
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+.header {
+    flex-grow: 0;
+}
+
+.footer {
+
+    flex-grow: 0;
+}
+
+.header-info {
+    height: 700px;
+    background-image: url('../img/training.jpg');
+
+}
+
+.header-info-block {
+    height: 60%;
+    width: 50%;
+    margin-left: 200px;
+}
+
+.header-info-text {
+    font-size: 18px;
+}
+
+.header .btns .btn-success {
+    font-size: 20px;
+    padding: 15px 25px;
+}
+
+.info-section {
+    min-height: 500px;
+}
+
+
+.img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.img {
+    height: 100%;
+}
+
+.toast {
+    margin: 10px 10px;
+}
+
+.form-control:disabled {
+    background-color: unset;
+    opacity: 1;
+}
+
+.course-text {
+    padding: 0 3rem;
+}
+
+.course-ul .h4{
+    margin-bottom: 1rem;
+}
+
+.course-ul li {
+    margin-top: .5rem;
+}

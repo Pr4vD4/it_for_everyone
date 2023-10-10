@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="container wrapper">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">IT FOR EVERYONE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Главная</a>
+                        <a class="nav-link" href="#">О нас</a>
+                        <a class="nav-link" href="#">Цены</a>
+                        <a class="nav-link" href="./web_course.html">Полный курс Web-Разработчика</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a class="btn btn-success" aria-current="page" href="#">Приобрести курс</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="container main mt-5">
+        <div class="d-flex justify-content-center">
+            <form class="w-75 d-flex justify-content-center flex-wrap">
+                <div class="input-group">
+                    <select class="form-select" id="course" aria-label="Example select with button addon">
+                        <option value="0" selected>Выберете курс</option>
+                        <option value="8000">Начинающий разработчик Python</option>
+                        <option value="12000">Java разработчик</option>
+                        <option value="15000">Полный курс Web-Разработчика</option>
+                    </select>
+                    <input type="number" class="form-control" id="months" aria-label="Text input with segmented dropdown button" placeholder="Кол-во месяцев">
+                    <button class="btn btn-outline-secondary" type="button" onclick="count()">Вычислить цену</button>
+                    <input type="text" class="form-control" id="result" aria-label="Text input with segmented dropdown button" value="" disabled>
+                </div>
+                <input class="btn btn-success mt-3" type="submit" value="Приобрести курс">
+            </form>
+        </div>
+
+
+
+    </div>
+    <div class="footer">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="w-100 d-flex justify-content-center">
+                    <div class="navbar-nav d-flex justify-content-around">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                        <a class="nav-link" href="#">О нас</a>
+                        <a class="nav-link" href="#">Цены</a>
+                        <a class="nav-link" href="./web_course.html">Полный курс Web-Разработчика</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>
+
+
+<script src="./assets/js/course_count.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
